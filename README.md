@@ -3,7 +3,7 @@
 A Python implementation of the inductive graph algorithms described in [Erwig 2001](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/inductive-graphs-and-functional-graph-algorithms/2210F7C31A34EA4CF5008ED9E7B4EF62).
 
 Inductive graphs allow functional implementations of graph algorithms like topological sort and minimum spanning 
-trees, both of which are implemented in this library.
+trees, both of which are implemented in this library among other algorithms.
 
 This implementation uses pure Python and no third-party libraries (except for testing and development).
 
