@@ -1,0 +1,13 @@
+# Python Development
+
+.mypy_cache/
+.pytest_cache/
+
+# Python Compilation
+
+__pycache__/
+
+# PyCharm
+
+.idea/
+

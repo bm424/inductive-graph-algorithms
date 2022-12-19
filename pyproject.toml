@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "inductive-graph-algorithms"
+version = "1.0.0"
+description = "An implementation of Erwig's Inductive Graphs and Functional Graph Algorithms 2001 Paper."
+authors = ["Ben Martineau <benhmartineau@gmail.com>"]
+license = "MIT"
+keywords = ["functional", "graph", "algorithms"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+pytest = "^7.2.0"
+mypy = "^0.991"
+coverage = "^6.5.0"
+pylint = "^2.15.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
