@@ -1,6 +1,6 @@
 # Inductive Graph Algorithms
 
-A Python implementation of the inductive graph algorithms described in Erwig 2001[^1].
+A Python implementation of the inductive graph algorithms described in [Erwig 2001](https://www.cambridge.org/core/journals/journal-of-functional-programming/article/inductive-graphs-and-functional-graph-algorithms/2210F7C31A34EA4CF5008ED9E7B4EF62).
 
 Inductive graphs allow functional implementations of graph algorithms like topological sort and minimum spanning 
 trees, both of which are implemented in this library.
@@ -9,8 +9,8 @@ This implementation uses pure Python and no third-party libraries (except for te
 
 # Usage
 
-The code below constructs the graph and calculates the minimum spanning tree shown in the Wikipedia article on 
-minimum spanning trees[^2], returning an `LRTree` as described in the paper.
+The code below constructs the graph and calculates the minimum spanning tree shown in the [Wikipedia article](https://en.wikipedia.org/wiki/Minimum_spanning_tree) on 
+minimum spanning trees, returning an `LRTree` as described in the paper.
 
 ```python
 from graph.inductivegraph import Context, Adj, Node, EmptyGraph
@@ -42,5 +42,5 @@ graph.mst(Node(1))
 
 # References
 
-[^1] https://www.cambridge.org/core/journals/journal-of-functional-programming/article/inductive-graphs-and-functional-graph-algorithms/2210F7C31A34EA4CF5008ED9E7B4EF62
-[^2] https://en.wikipedia.org/wiki/Minimum_spanning_tree
+1. https://www.cambridge.org/core/journals/journal-of-functional-programming/article/inductive-graphs-and-functional-graph-algorithms/2210F7C31A34EA4CF5008ED9E7B4EF62
+2. https://en.wikipedia.org/wiki/Minimum_spanning_tree
